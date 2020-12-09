@@ -9,6 +9,7 @@ Original file is located at
 
 from github import Github
 
+# token revoked for (now) obvious reasons
 g = Github("8a16a8b561ff29e092a2c5767c8250725ebdfd19")
 
 for repo in g.get_user().get_repos():
